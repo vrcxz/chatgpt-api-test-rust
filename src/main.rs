@@ -20,7 +20,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         .post("https://api.openai.com/v1/engines/davinci-codex/completions")
         .header(USER_AGENT, HeaderValue::from_static("reqwest"))
         .header("Content-Type", HeaderValue::from_static("application/json"))
-        .bearer_auth("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")
+        .bearer_auth("<insert your api key hereeeee")
         .json(&json!({
             "prompt": "Tell me a story about some fox.",
             "temperature": 0.5,
