@@ -1,2 +1,2 @@
 # chatgpt-api-test-rust
-just fiddling chatgpt api with rust
+testing chatgpt api with rust
